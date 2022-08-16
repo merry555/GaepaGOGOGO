@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class StopPainter extends CustomPainter {
   Color color;
 
-  StopPainter({this.color});
+  StopPainter({required this.color});
 
   @override
   void paint(Canvas canvas, Size size) {

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class ListPainter extends CustomPainter {
   Color color1;
 
-  ListPainter({this.color1});
+  ListPainter({required this.color1});
 
   @override
   void paint(Canvas canvas, Size size) {

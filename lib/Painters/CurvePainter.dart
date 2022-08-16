@@ -4,7 +4,7 @@ class CurvePainter extends CustomPainter {
   Color color1;
   Color color2;
   Color color3;
-  CurvePainter({this.color1, this.color2, this.color3});
+  CurvePainter({required this.color1, required this.color2, required this.color3});
 
   @override
   void paint(Canvas canvas, Size size) {
